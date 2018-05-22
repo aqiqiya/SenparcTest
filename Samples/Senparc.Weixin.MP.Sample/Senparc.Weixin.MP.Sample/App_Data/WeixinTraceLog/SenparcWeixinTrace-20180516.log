@@ -1,0 +1,209 @@
+
+[[[系统日志]]]
+[2018/5/16 16:01:01]
+[线程：1]
+    系统启动
+
+[[[首页被访问]]]
+[2018/5/16 16:01:02]
+[线程：5]
+    Url：http://localhost:65395/
+IP：::1
+
+[[[系统日志]]]
+[2018/5/16 16:06:40]
+[线程：1]
+    系统启动
+
+[[[首页被访问]]]
+[2018/5/16 16:06:40]
+[线程：7]
+    Url：http://localhost:65395/
+IP：::1
+
+[[[接口调用]]]
+[2018/5/16 16:06:56]
+[线程：7]
+    URL：https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxb8a50e4de9170081&secret=ea59f8d93fade7c235362a6e60b61022
+    Result：
+{"access_token":"9_3xpcdwmNA_U-WXuXgWOP_F0aIiiKxwZxzYJyvLaMs2nOGpcymkWmA1X89bHhSPWMgDFqC_olOaycLtGt1qz-U1yOUaBIkRtxahFZdDGuoQTRG7o8_VYiNW3dncK2IYOkLvDEFpdJzmk3agVqZIBfAGAGPI","expires_in":7200}
+
+[[[系统日志]]]
+[2018/5/16 16:07:57]
+[线程：1]
+    系统启动
+
+[[[首页被访问]]]
+[2018/5/16 16:07:57]
+[线程：7]
+    Url：http://localhost:65395/
+IP：::1
+
+[[[接口调用]]]
+[2018/5/16 16:08:13]
+[线程：9]
+    URL：https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxb8a50e4de9170081&secret=ea59f8d93fade7c235362a6e60b61022
+    Result：
+{"access_token":"9_9lFZYqtStpMdAcFytDdwbI5LxxLL2FhTN9DRk-TrKEle93qCMxLkVPG1SDDd0vp9k1Gmk77NSQjO_qsRdyay-zLntvPAoIH0tx6-Ckw33HpBcPVgpk8qUFxkroHiQxo4dHEYTK3mFtYBzFiyMCGaAFAQGK","expires_in":7200}
+
+[[[系统日志]]]
+[2018/5/16 16:13:45]
+[线程：1]
+    系统启动
+
+[[[首页被访问]]]
+[2018/5/16 16:13:45]
+[线程：10]
+    Url：http://localhost:65395/
+IP：::1
+
+[[[接口调用]]]
+[2018/5/16 16:14:12]
+[线程：10]
+    URL：https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxb8a50e4de9170081&secret=ea59f8d93fade7c235362a6e60b61022
+    Result：
+{"access_token":"9_AifcpSA_XsQSGS1SDXYsksQv65UT_FzqbMpVMDB46cji5_Wieg6mTTjx5vzpCh6CqjvGHSJbI8L7V5g9gXESkP_2iAzDtu-SsNDANKa7UUfgfXnTqWF9ahgainFgs-Mx8AK8-GQ69vAr6NcgRFQjADAWKV","expires_in":7200}
+
+[[[接口调用]]]
+[2018/5/16 16:14:18]
+[线程：10]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_AifcpSA_XsQSGS1SDXYsksQv65UT_FzqbMpVMDB46cji5_Wieg6mTTjx5vzpCh6CqjvGHSJbI8L7V5g9gXESkP_2iAzDtu-SsNDANKa7UUfgfXnTqWF9ahgainFgs-Mx8AK8-GQ69vAr6NcgRFQjADAWKV
+    Post Data：
+{"button":[]}
+
+[[[接口调用]]]
+[2018/5/16 16:14:19]
+[线程：10]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_AifcpSA_XsQSGS1SDXYsksQv65UT_FzqbMpVMDB46cji5_Wieg6mTTjx5vzpCh6CqjvGHSJbI8L7V5g9gXESkP_2iAzDtu-SsNDANKa7UUfgfXnTqWF9ahgainFgs-Mx8AK8-GQ69vAr6NcgRFQjADAWKV
+    Result：
+{"errcode":40016,"errmsg":"invalid button size hint: [G8OwTA0459vr18]"}
+
+[[[ErrorJsonResultException]]]
+[2018/5/16 16:14:19]
+[线程：10]
+    ErrorJsonResultException
+    AccessTokenOrAppId：null
+    URL：
+    errcode：不合法的按钮个数1
+    errmsg：invalid button size hint: [G8OwTA0459vr18]
+
+[[[WeixinException]]]
+[2018/5/16 16:14:46]
+[线程：11]
+    WeixinMenuException
+    AccessTokenOrAppId：
+    Message：menu no exist hint: [8JBk0a0486vr28]
+    StackTrace：
+
+[[[接口调用]]]
+[2018/5/16 16:18:15]
+[线程：11]
+    URL：https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxb8a50e4de9170081&secret=ea59f8d93fade7c235362a6e60b61022
+    Result：
+{"access_token":"9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL","expires_in":7200}
+
+[[[接口调用]]]
+[2018/5/16 16:19:35]
+[线程：21]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Post Data：
+{"button":[]}
+
+[[[接口调用]]]
+[2018/5/16 16:19:35]
+[线程：21]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Result：
+{"errcode":40016,"errmsg":"invalid button size hint: [GpbN0776vr18]"}
+
+[[[ErrorJsonResultException]]]
+[2018/5/16 16:19:35]
+[线程：21]
+    ErrorJsonResultException
+    AccessTokenOrAppId：null
+    URL：
+    errcode：不合法的按钮个数1
+    errmsg：invalid button size hint: [GpbN0776vr18]
+
+[[[接口调用]]]
+[2018/5/16 16:20:06]
+[线程：24]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Post Data：
+{"button":[]}
+
+[[[接口调用]]]
+[2018/5/16 16:20:06]
+[线程：24]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Result：
+{"errcode":40016,"errmsg":"invalid button size hint: [nJ4ldA0807vr24]"}
+
+[[[ErrorJsonResultException]]]
+[2018/5/16 16:20:06]
+[线程：24]
+    ErrorJsonResultException
+    AccessTokenOrAppId：null
+    URL：
+    errcode：不合法的按钮个数1
+    errmsg：invalid button size hint: [nJ4ldA0807vr24]
+
+[[[接口调用]]]
+[2018/5/16 16:21:20]
+[线程：22]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Post Data：
+{"button":[]}
+
+[[[接口调用]]]
+[2018/5/16 16:21:20]
+[线程：22]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Result：
+{"errcode":40016,"errmsg":"invalid button size hint: [kXSUqa0880vr24]"}
+
+[[[ErrorJsonResultException]]]
+[2018/5/16 16:21:20]
+[线程：22]
+    ErrorJsonResultException
+    AccessTokenOrAppId：null
+    URL：
+    errcode：不合法的按钮个数1
+    errmsg：invalid button size hint: [kXSUqa0880vr24]
+
+[[[接口调用]]]
+[2018/5/16 16:22:29]
+[线程：21]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Post Data：
+{"button":[]}
+
+[[[接口调用]]]
+[2018/5/16 16:22:29]
+[线程：21]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Result：
+{"errcode":40016,"errmsg":"invalid button size hint: [BJ0949vr28]"}
+
+[[[ErrorJsonResultException]]]
+[2018/5/16 16:22:29]
+[线程：21]
+    ErrorJsonResultException
+    AccessTokenOrAppId：null
+    URL：
+    errcode：不合法的按钮个数1
+    errmsg：invalid button size hint: [BJ0949vr28]
+
+[[[接口调用]]]
+[2018/5/16 16:23:13]
+[线程：21]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Post Data：
+{"button":[{"sub_button":[{"key":"tet","type":"click","name":"test1"}],"name":"Test1"},{"sub_button":[{"url":"http://www.baidu.com","type":"view","name":"test2"}],"name":"Test2"},{"url":"http://www.google.com","type":"view","name":"Test3"}]}
+
+[[[接口调用]]]
+[2018/5/16 16:23:14]
+[线程：21]
+    URL：https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9_Fwyx-7WjJYtA924eqcUsOkEBJP5ak_45SRGbMpSdBXpF89ptH-CBJJmEnsidVMepY4Kfu5vuXdZLCyt_a5R45mngY4u79V7T4_PMCc3W_gxy9wcUcv3cje4V8h4ivc07_ESr2D8OjdsTpPsfJYIeADAMBL
+    Result：
+{"errcode":0,"errmsg":"ok"}
