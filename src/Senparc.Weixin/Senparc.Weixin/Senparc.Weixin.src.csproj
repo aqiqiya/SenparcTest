@@ -98,6 +98,7 @@
     <Compile Include="Cache\Lock\ICacheLock.cs" />
     <Compile Include="Cache\ObjectCacheStrategy\IObjectCacheStrategy.cs" />
     <Compile Include="Cache.Local\ObjectCacheStrategy\LocalObjectCacheStrategy.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="CommonAPIs\ApiHandlerWapper\ApiHandlerWapperBase.cs" />
     <Compile Include="CommonAPIs\ApiHandlerWapper\ApiHandlerWapperFactory.cs" />
     <Compile Include="Config.cs" />
